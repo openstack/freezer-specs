@@ -1,1 +1,1 @@
-newton-template.rst
+ocata-template.rst
