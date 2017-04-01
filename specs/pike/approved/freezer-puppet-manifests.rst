@@ -107,7 +107,7 @@ Assignee(s)
 -----------
 
 Primary assignee:
-  <None>
+  vnogin (Vitaliy Nogin)
 
 Other contributors:
   <None>
