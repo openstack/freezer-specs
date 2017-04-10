@@ -2,8 +2,8 @@
 Team and repository tags
 ========================
 
-.. image:: http://governance.openstack.org/badges/freezer-specs.svg
-    :target: http://governance.openstack.org/reference/tags/index.html
+.. image:: https://governance.openstack.org/badges/freezer-specs.svg
+    :target: https://governance.openstack.org/reference/tags/index.html
     :remote:
 
 .. Change things from this point on
@@ -88,7 +88,7 @@ Design documents for releases prior to Newton
 
 Prior to the Juno development cycle, this repository was not used for spec
 reviews.  Reviews prior to Juno were completed entirely through `Launchpad
-blueprints <http://blueprints.launchpad.net/freezer>`_
+blueprints <https://blueprints.launchpad.net/freezer>`_
 
 Please note, Launchpad blueprints are still used for tracking the
 current status of blueprints. For more information, see
@@ -98,7 +98,7 @@ Working with gerrit and specification unit tests
 ------------------------------------------------
 
 For more information about working with gerrit, see
-http://docs.openstack.org/infra/manual/developers.html#development-workflow
+https://docs.openstack.org/infra/manual/developers.html#development-workflow
 
 To validate that the specification is syntactically correct (i.e. get more
 confidence in the Jenkins result), please execute the following command::
