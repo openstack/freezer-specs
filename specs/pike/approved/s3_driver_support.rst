@@ -51,8 +51,8 @@ Related docs:
 Amazon S3 REST API Introduction
 * http://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html
 
-The python client module that could be used is boto3
-* https://github.com/boto/boto3
+The python client module that could be used is botocore
+* https://github.com/boto/botocore
 
 Data model impact
 -----------------
