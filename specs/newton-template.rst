@@ -20,7 +20,7 @@ respectively.
 Some notes about the freezer-spec and blueprint process:
 
 * Not all blueprints need a spec. For more information see
-  http://docs.openstack.org/developer/nova/devref/kilo.blueprints.html#when-is-a-blueprint-needed
+  https://docs.openstack.org/nova/latest/contributor/blueprints.html?highlight=when%20blueprint%20needed
 
 * The aim of this document is first to define the problem we need to solve,
   and second agree the overall approach to solve that problem.
