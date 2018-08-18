@@ -2,8 +2,8 @@
 Team and repository tags
 ========================
 
-.. image:: https://governance.openstack.org/badges/freezer-specs.svg
-    :target: https://governance.openstack.org/reference/tags/index.html
+.. image:: https://governance.openstack.org/tc/badges/freezer-specs.svg
+    :target: https://governance.openstack.org/tc/reference/tags/index.html
     :remote:
 
 .. Change things from this point on
