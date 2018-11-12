@@ -2,7 +2,7 @@
  This work is licensed under a Creative Commons Attribution 3.0 Unported
  License.
 
- http://creativecommons.org/licenses/by/3.0/legalcode
+ https://creativecommons.org/licenses/by/3.0/legalcode
 
 =============================================
 Freezer Cinder Volumes backup using OS Bricks
@@ -63,9 +63,9 @@ simultaneously can be backup or restore)
 Technical details
 -----------------
 
-Openstack provide the os_brick library to attach volumes:
+OpenStack provide the os_brick library to attach volumes:
 
-* https://github.com/openstack/os-brick
+* https://opendev.org/openstack/os-brick
 
 It mainly provides the following features:
 
@@ -75,12 +75,12 @@ It mainly provides the following features:
 
 Related docs:
 
-* http://docs.openstack.org/developer/os-brick/api/index.html
-* http://docs.openstack.org/developer/os-brick/tutorial.html
+* https://docs.openstack.org/os-brick/latest/reference/index.html
+* https://docs.openstack.org/os-brick/latest/user/tutorial.html
 
 The python client module that could be used is brick-cinderclient-ex:
 
-* https://github.com/openstack/python-brick-cinderclient-ext
+* https://opendev.org/openstack/python-brick-cinderclient-ext
 
 It is preferrable to implement the Volumes related operations from cinder
 in python, rather wrapping around any possible related os-brick command.
