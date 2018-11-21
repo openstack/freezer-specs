@@ -124,7 +124,7 @@ REST API impact
         ]
     }
 
-* Specifying the storage as ftps, the request Example
+* Specifying the storage as ssh(sftp), the request Example
   in creating job as follows::
 
     {
@@ -140,11 +140,11 @@ REST API impact
                 "max_retries_interval": 6,
                 "freezer_action": {
                     "backup_name": "test0003_backup",
-                    "storage": "sftp",
-                    "ftp_host": "192.177.10.44",
-                    "ftp_username": "ftptest",
-                    "ftp_password": "pass_test",
-                    "ftp_port": 22,
+                    "storage": "ssh",
+                    "ssh_host": "192.177.10.44",
+                    "ssh_username": "ftptest",
+                    "ssh_password": "pass_test",
+                    "ssh_port": 22,
                     "container": "/home/sftptest",
                     "no_incremental": true,
                     "path_to_backup": "/etc/",
@@ -177,19 +177,19 @@ Other end user impact
    sudo freezer-agent --path-to-backup /data/dir/to/backup
    --container /remote-machine-path/ --backup-name my-backup-name
    --storage ftp --ftp-username ftpuser --ftp-password passwd_test
-   --ftp-host 8.8.8.8 --ftp-port 82
+   --ftp-host 8.8.8.8 --ftp-port 21
 
 * usecase in freezer-agent using ftps as storage::
    sudo freezer-agent --path-to-backup /data/dir/to/backup
    --container /remote-machine-path/ --backup-name my-backup-name
    --storage ftps --ftp-username ftpuser --ftp-password passwd_test
-   --ftp-host 8.8.8.8 --ftp-port 82
+   --ftp-host 8.8.8.8 --ftp-port 21
 
 * usecase in freezer-agent using sftp as storage::
    sudo freezer-agent --path-to-backup /data/dir/to/backup
    --container /remote-machine-path/ --backup-name my-backup-name
-   --storage sftp --ftp-username ftpuser --ftp-password passwd_test
-   --ftp-host 8.8.8.8 --ftp-port 82
+   --storage ssh --ssh-username ftpuser --ssh-password passwd_test
+   --ssh-host 8.8.8.8 --ssh-port 22
 
 Performance Impact
 ------------------
