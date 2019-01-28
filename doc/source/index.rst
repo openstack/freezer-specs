@@ -25,7 +25,7 @@ Here you can find the specs, and spec template, for each release:
    :glob:
    :maxdepth: 1
 
-   specs/newton/index
+   specs/train/index
 
 There are also some approved backlog specifications that are looking for owners:
 
