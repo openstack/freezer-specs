@@ -1,1 +1,0 @@
-../../../../specs/backlog-template.rst

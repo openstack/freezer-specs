@@ -1,3 +1,9 @@
 - project:
     templates:
       - openstack-specs-jobs
+    check:
+      jobs:
+        - openstack-tox-py36
+    gate:
+      jobs:
+        - openstack-tox-py36

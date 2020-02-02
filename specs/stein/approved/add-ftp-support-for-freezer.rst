@@ -221,7 +221,7 @@ Work Items
 * Implementing sftp storage in freezer
 
 * Adding these parameters ftp_host, ftp_username, ftp_password, ftp_port in
-freezer-agent
+  freezer-agent
 
 Dependencies
 ============

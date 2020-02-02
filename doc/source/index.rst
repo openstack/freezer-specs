@@ -1,8 +1,8 @@
 .. freezer-specs documentation master file
 
-============================
+===============================
 OpenStack Freezer Project Plans
-============================
+===============================
 
 Priorities
 ==========
@@ -14,6 +14,9 @@ on for the upcoming release. This is the output of those discussions:
    :glob:
    :maxdepth: 1
 
+   priorities/stein-priorities
+   priorities/pike-priorities
+   priorities/ocata-priorities
    priorities/newton-priorities
 
 Specifications
@@ -25,15 +28,9 @@ Here you can find the specs, and spec template, for each release:
    :glob:
    :maxdepth: 1
 
-   specs/train/index
-
-There are also some approved backlog specifications that are looking for owners:
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-
-   specs/backlog/index
+   specs/stein/index
+   specs/pike/index
+   specs/ocata/index
 
 Process
 =======

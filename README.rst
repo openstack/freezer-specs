@@ -4,16 +4,15 @@ Team and repository tags
 
 .. image:: https://governance.openstack.org/tc/badges/freezer-specs.svg
     :target: https://governance.openstack.org/tc/reference/tags/index.html
-    :remote:
 
 .. Change things from this point on
 
-=======
+======
 README
-=======
+======
 
 OpenStack Freezer Specifications
-=============================
+================================
 
 
 This git repository is used to hold approved design specifications for
@@ -28,8 +27,8 @@ The layout of this repository is::
 
 Where there are two sub-directories:
 
-  specs/<release>/approved: specifications approved but not yet implemented
-  specs/<release>/implemented: implemented specifications
+* ``specs/<release>/approved``: specifications approved but not yet implemented
+* ``specs/<release>/implemented``: implemented specifications
 
 The lifecycle of a specification
 --------------------------------
@@ -84,7 +83,7 @@ from this directory to the next active release. Please set yourself as the new
 list.
 
 Design documents for releases prior to Newton
--------------------------------------------
+---------------------------------------------
 
 Prior to the Juno development cycle, this repository was not used for spec
 reviews.  Reviews prior to Juno were completed entirely through `Launchpad

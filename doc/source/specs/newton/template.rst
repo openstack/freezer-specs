@@ -1,1 +1,0 @@
-../../../../specs/newton-template.rst

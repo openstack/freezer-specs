@@ -86,7 +86,7 @@ Questions which need to be addressed by this section include:
   existing data describe how that will work.
 
 
-As there will be a brand new relational database schema [MIG1]_:
+As there will be a brand new relational database schema [MIGR1]_:
 
 
 Clients
@@ -299,7 +299,7 @@ TBD.
 References
 ==========
 
-.. [MIG1] https://etherpad.openstack.org/p/freezer_mysql_migration
+.. [MIGR1] https://etherpad.openstack.org/p/freezer_mysql_migration
 
 .. https://etherpad.openstack.org/p/freezer_db_switch
 

@@ -89,7 +89,7 @@ Other deployer impact
 
 * A new storage type called 's3' will be added.
 * When specify 's3' type, 'access-key', 'secret-key' and 'endpoint' should be
-required.
+  required.
 
 Developer impact
 ----------------

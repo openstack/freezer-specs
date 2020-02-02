@@ -49,9 +49,9 @@ Proposed change
 Implementing the new engine classes for rsync (as well as for tar).
 Providing new engine (-e) choice in config.
 
-For this type of backup will be created following metadata structure:
+For this type of backup will be created following metadata structure::
 
-files_meta = {
+  files_meta = {
             'files': {},
             'directories': {},
             'meta': {
@@ -69,7 +69,7 @@ files_meta = {
             'rsync_block_size': RSYNC_BLOCK_SIZE}
 
 
-file_meta = {'inode': {
+  file_meta = {'inode': {
                       'inumber': os_stat.st_ino,
                       'nlink': os_stat.st_nlink,
                       'mode': file_mode,
@@ -89,7 +89,7 @@ file_meta = {'inode': {
                       }
             }
 
-Current version of implementation you always can find here [1].
+Current version of implementation you always can find here [1]_.
 
 Alternatives
 ------------
@@ -200,9 +200,9 @@ Work Items
 Dependencies
 ============
 
-* This spec depends on Freezer oslo.db migration [2].
+* This spec depends on Freezer oslo.db migration [2]_.
 
-* Pluggable engines described here [3].
+* Pluggable engines described here [3]_.
 
 * There are no additional library dependencies.
 
