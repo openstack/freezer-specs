@@ -6,8 +6,11 @@
 import os.path
 
 from sphinx.application import ENV_PICKLE_FILENAME
+from sphinx.util import logging
 from sphinx.util.console import bold
 
+
+LOG = logging.getLogger(__name__)
 
 def setup(app):
     from sphinx.application import Sphinx
@@ -35,7 +38,7 @@ def process_redirect_file(app, path, ent):
 
 
 def emit_redirects(app, exc):
-    app.builder.info(bold('scanning %s for redirects...') % app.builder.srcdir)
+    LOG.info(bold('scanning %s for redirects...') % app.builder.srcdir)
 
     def process_directory(path):
         for ent in os.listdir(path):
@@ -43,8 +46,8 @@ def emit_redirects(app, exc):
             if os.path.isdir(p):
                 process_directory(p)
             elif ent == 'redirects':
-                app.builder.info('   found redirects at %s' % p)
+                LOG.info('   found redirects at %s' % p)
                 process_redirect_file(app, path, ent)
 
     process_directory(app.builder.srcdir)
-    app.builder.info('...done')
+    LOG.info('...done')
