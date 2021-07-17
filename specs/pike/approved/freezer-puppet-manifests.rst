@@ -44,10 +44,10 @@ Proposed change
 * Puppet community requires having packages for various operating systems.
   Nevertheless, for a while can be used package puppet module
 
- * RPM packages should be discussed in #rdo IRC channel on Freenode and then
+ * RPM packages should be discussed in #rdo IRC channel on OFTC and then
    added in RDO trunk according to the RDO `guaidliness <https://www.rdoproject.org/documentation/rdo-packaging/#how-to-add-a-new-package-to-rdo-trunk>`_
  * Debian packaging of OpenStack should be discussed in #openstack-pkg IRC
-   channel on Freenode
+   channel on OFTC
 
 * at the very beginning puppet manifests should be implemented for Freezer,
   Freezer-API and python-freezerclient components and only after that for
