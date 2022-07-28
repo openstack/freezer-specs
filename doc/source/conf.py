@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-#
 # Tempest documentation build configuration file, created by
 # sphinx-quickstart on Tue May 21 17:43:32 2013.
 #
@@ -36,7 +34,7 @@ extensions = ['redirect',
              ]
 
 # Feed configuration for yasfb
-feed_base_url = 'http://specs.openstack.org/openstack/freezer-specs'
+feed_base_url = 'https://specs.openstack.org/openstack/freezer-specs/'
 feed_author = 'OpenStack Freezer Team'
 
 todo_include_todos = True
@@ -54,8 +52,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Freezer Specs'
-copyright = u'%s, OpenStack Freezer Team' % datetime.date.today().year
+project = 'Freezer Specs'
+copyright = '%s, OpenStack Freezer Team' % datetime.date.today().year
 
 # openstackdocstheme options
 openstackdocs_repo_name = 'openstack/freezer-specs'
@@ -189,8 +187,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Freezer-specs.tex', u'Freezer Specs',
-   u'OpenStack Freezer Team', 'manual'),
+  ('index', 'Freezer-specs.tex', 'Freezer Specs',
+   'OpenStack Freezer Team', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -219,8 +217,8 @@ latex_documents = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Freezer-specs', u'Freezer Design Specs',
-   u'OpenStack Freezer Team', 'freezer-specs', 'Design specifications for the Freezer project.',
+  ('index', 'Freezer-specs', 'Freezer Design Specs',
+   'OpenStack Freezer Team', 'freezer-specs', 'Design specifications for the Freezer project.',
    'Miscellaneous'),
 ]
 
@@ -237,10 +235,10 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Freezer Specs'
-epub_author = u'OpenStack Freezer Team'
-epub_publisher = u'OpenStack Freezer Team'
-epub_copyright = u'2014, OpenStack Freezer Team'
+epub_title = 'Freezer Specs'
+epub_author = 'OpenStack Freezer Team'
+epub_publisher = 'OpenStack Freezer Team'
+epub_copyright = '2014, OpenStack Freezer Team'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
