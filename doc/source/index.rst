@@ -28,6 +28,7 @@ Here you can find the specs, and spec template, for each release:
    :glob:
    :maxdepth: 1
 
+   specs/2025.1/index
    specs/stein/index
    specs/pike/index
    specs/ocata/index
