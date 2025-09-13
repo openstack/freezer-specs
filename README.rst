@@ -1,19 +1,10 @@
-========================
-Team and repository tags
-========================
-
-.. image:: https://governance.openstack.org/tc/badges/freezer-specs.svg
-    :target: https://governance.openstack.org/tc/reference/tags/index.html
-
-.. Change things from this point on
-
-======
-README
-======
-
+================================
 OpenStack Freezer Specifications
 ================================
 
+.. image:: https://governance.openstack.org/tc/badges/freezer-specs.svg
+
+.. Change things from this point on
 
 This git repository is used to hold approved design specifications for
 additions to the Freezer project.  Reviews of the specs are done in gerrit,
